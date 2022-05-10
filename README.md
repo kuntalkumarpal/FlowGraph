@@ -1,5 +1,14 @@
 # FlowGraph_SoftwareSecurity
 
+### Environment Create 
+```
+# Re-create the environment
+conda env create --file requirements.yml
+
+# Reactivate the environment
+conda activate pytorch 
+```
+
 ### Data
 * The preprocessed Cooking (COR) and Maintenance Manual (MAM) data are available in the ```data/``` directory
 * For statistics of the pre-processed data, please refer to our paper
